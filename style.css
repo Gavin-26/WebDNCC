@@ -1,0 +1,133 @@
+* {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  /* untuk smooth scroll global */
+  scroll-behavior: smooth;
+}
+
+.header {
+  text-align: center;
+  background: rgb(71, 34, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(71, 34, 195, 1) 0%,
+    rgba(253, 160, 45, 1) 100%
+  );
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.nav_utama {
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.pilihanmenu {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.textmenu {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.textmenu:hover {
+  background-color: #555;
+  color: orange;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: ease-in-out 1s;
+}
+
+section {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: azure;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: #ff4040;
+}
+
+p {
+  text-align: justify;
+  margin: 15px 0;
+}
+
+/* untuk gambar */
+figure {
+  margin: 0;
+  text-align: center;
+}
+/* caption gambar */
+figcaption {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+/* file gambar */
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+#back-to-top {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff4040;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#back-to-top:hover {
+  background-color: #cc3333;
+}
+
+.author:hover {
+  background-color: yellow;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+.back-to-top {
+  /* posisi fix tidak dipengaruhi lain lain */
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background-color: #b30000;
+}
+
